@@ -1,0 +1,33 @@
+.class1{
+         width: 500px;
+        margin: auto;
+                    }
+.class2{
+    /* text-align: center; */
+    margin-left: 200px;
+}
+       
+.class3{
+    /* text-align: center; */
+    margin-left: 160px;
+}
+.class4{
+    /* text-align: center; */
+    margin-left: 40px;
+}
+
+.class5{
+    /* text-align: center; */
+    margin-left: 100px;
+}
+
+   
+
+label , input , select{
+    margin: 10px;
+}
+
+fieldset{
+    background-color: antiquewhite;
+    border: 3px solid;
+}

@@ -1,0 +1,40 @@
+
+    body{
+        background-color: bisque;
+
+
+    }
+
+.class1 {
+    width: 500px;
+    border: 1px solid black;
+    background-color: white;
+    margin-bottom: 50px;
+    padding: 10px;
+    
+}
+.class2{
+    width: 500px;
+    border: 1px dotted red ;
+    background-color: white;
+    color: red;
+    margin-bottom: 50px;
+    padding: 10px;    
+}
+
+.class3{
+    display: inline-block;
+    border: 1px dotted red ;
+    background-color: white;
+    color: red;
+} 
+
+.highlight0 {
+    background-color: orange;
+}
+
+.highlight1 {
+    background-color: yellow;
+}
+
+

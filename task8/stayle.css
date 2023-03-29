@@ -1,0 +1,11 @@
+img
+{width: 200px;
+    height: 150px;}
+td,th
+{border-bottom: 1px dotted black;}
+p
+{font-weight: bold;}
+table
+{border: 1px dotted black;}
+#ri
+{ border-left: 1px dotted black;}
