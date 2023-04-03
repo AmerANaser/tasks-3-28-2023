@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: #675491;
+}
+
+.header {
+  height: 50px;
+  background-color: #89cca9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 0px 20px;
+  position: relative;
+}
+
+.one {
+  display: flex;
+  gap: 20px;
+}
+:root {
+    --bottom-color: black;
+    --right-color: black
+}
+
+.button {
+  background-color: white;
+  padding: 5px 15px;
+  border: 3px solid black;
+  color: black;
+  box-shadow: 1px 0 0 var(--right-color),
+  1px 1px 0 var(--bottom-color),
+  2px 1px 0 var(--right-color),
+  2px 2px 0 var(--bottom-color),
+  3px 2px 0 var(--right-color),
+  3px 3px 0 var(--bottom-color),
+  4px 3px 0 var(--right-color),
+  4px 4px 0 var(--bottom-color);
+}
+
+.ann {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #89cca9;
+  width: fit-content;
+  padding: 10px;
+  position: absolute;
+  left: 100%;
+}
+
+.third:hover::after {
+  content: "Decoration \A Painting \A Lawn Mowing \A Planting \A Trimming";
+  display: flex;
+  white-space: pre-wrap;
+  position: absolute;
+  line-height: 40px;
+  top: 30px;
+  background-color: #89cca9;
+  padding: 20px;
+}
+
+.third:hover {
+    color: rgb(186,181,100);
+}
+
+.third::after {
+    color:#675491;
+}
+
+.button:hover {
+    color: rgb(186,181,100);
+}
